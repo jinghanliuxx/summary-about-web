@@ -12,3 +12,6 @@ slideToggle：可用transform：scaleY(0);transform-origin:top;transition:all 30
 
 
 #JQ
+JQ选择器和css大都相同
+遍历.siblings()方法:$("p").siblings(".selected")查找所有类名为selected的p元素
+                   $('.item').siblings().css("color","red");查找类名为item的所有同胞元素,并将除它之外的元素color设为red.
